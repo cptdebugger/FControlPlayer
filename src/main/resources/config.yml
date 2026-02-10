@@ -1,0 +1,16 @@
+# Поставьте "" для отключения сообщения.
+messages:
+  prefix: "&7[Control] &r"
+  only-player: "{prefix}Команда доступна только в игре."
+  usage: "{prefix}Использование: /control <ник|off>"
+  not-controlling: "{prefix}&cВы никого не контролируете."
+  player-not-found: "{prefix}&cИгрок не найден."
+  unable-start: "{prefix}&cНе удалось начать контроль."
+  cannot-control-self: "{prefix}&cНельзя контролировать себя."
+  controller-controlled: "{prefix}&cВы под контролем и не можете контролировать других."
+  target-already-controlled: "{prefix}&c{target} уже под контролем."
+  target-controlling-else: "{prefix}&c{target} контролирует другого игрока."
+  start-controller: "{prefix}Теперь вы контролируете {target}."
+  start-target: "{prefix}&e{controller} контролирует вас. Доступен только чат."
+  stop-controller: "{prefix}Контроль завершен."
+  stop-target: "{prefix}Контроль завершен."

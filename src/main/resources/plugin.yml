@@ -1,0 +1,15 @@
+name: FControlPlayer
+version: '${version}'
+main: me.morok.fControlPlayer.Loader
+api-version: '1.16'
+depend:
+  - ProtocolLib
+commands:
+  control:
+    description: Control another player.
+    usage: /control <player>
+    permission: fcontrolplayer.control
+permissions:
+  fcontrolplayer.control:
+    description: Allows controlling another player.
+    default: op
